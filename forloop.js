@@ -2,12 +2,12 @@ const courses= ['Computer Science','Software Engineering', 'DataBase', 'Computer
 
 let i = 0;
 let len = courses.length;
-let devops = " ";
+let space = " ";
 
 for(; i < len;)
 {
-    devops += courses[i + '']+`\n`
+    space += courses[i ]+''
     i++;
 }
 
-console.log(devops); 'Computer Science Software Engineering DataBase Computer Literacy'
+console.log(space); 'Computer Science Software Engineering DataBase Computer Literacy'
